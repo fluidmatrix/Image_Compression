@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt 
+from PIL import Image
 
 def find_closest_centroids(X, centroids):
     """
@@ -29,8 +30,6 @@ def find_closest_centroids(X, centroids):
     
     return idx
 
-# UNQ_C2
-# GRADED FUNCTION: compute_centroids
 
 def compute_centroids(X, idx, K):
     """
@@ -151,6 +150,5 @@ axes[0].axis('off')  # Hide axis ticks
 axes[1].imshow(X_recovered)
 axes[1].set_title("After Compression")
 axes[1].axis('off')
-plt.imsave("compressed_image.png", X_recovered)
 plt.tight_layout()
 plt.show()

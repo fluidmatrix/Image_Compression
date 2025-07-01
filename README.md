@@ -1,1 +1,2 @@
 This repository features the final course's first module in the course by DeepLearning.AI and Stanford Online. The Code uses K Means Algorithm to downgrade the color depth from 26 Bits to 16 Bits. I have used a png file, where the compression algorithm flattens the image into matrices, so that it could be properly executed.
+You can also use your own image. If the image is in any format except JPG, then there is a commmented code under Show Image, which transforms the image so that it could be processed adequately.
