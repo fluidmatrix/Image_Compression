@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt 
-from PIL import Image
 
 def find_closest_centroids(X, centroids):
     """
@@ -112,7 +111,7 @@ def kMeans_init_centroids(X, K):
 
 
 # Load an image 
-original_img = plt.imread('OIP1.webp')
+original_img = plt.imread('LO2.jpg')
 
 #Show Image
 original_img = original_img / 255
